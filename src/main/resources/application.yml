@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Schedular-service
+
+server:
+  port: 8081
+
+lichess:
+  base-url: https://lichess.org/api
+  token: xxx
+
+cds:
+  base-url: http://localhost:8080
+
