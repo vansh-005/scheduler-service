@@ -6,9 +6,8 @@ server:
   port: 8081
 
 lichess:
-  base-url: https://lichess.org/api
-  token: xxx
+  base-url: ${LICHESS_BASE_URL:https://lichess.org/api}
+#  token: ${LICHESS_TOKEN}
 
 cds:
-  base-url: http://localhost:8080
-
+  base-url: ${CDS_BASE_URL}
